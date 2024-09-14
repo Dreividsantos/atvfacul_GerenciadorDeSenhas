@@ -4,6 +4,6 @@ document.getElementById('passwordForm').onsubmit = function(e) {
     const password = document.getElementById('password').value;
     const row = `<tr><td>${site}</td><td>${password}</td></tr>`;
     document.getElementById('passwordTable').innerHTML += row;
-    this.reset();  // Limpa o formulário
+    this.reset();  // Para limpar o formulário
 };
 
